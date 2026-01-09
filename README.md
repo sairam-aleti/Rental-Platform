@@ -1,4 +1,4 @@
-# 🏠 Rental Platform (Wanderlust)
+# Rental Platform (Wanderlust)
 
 A fully functional property rental marketplace inspired by Airbnb. This full-stack web application allows users to publish property listings, view detailed descriptions, and leave reviews. It creates a robust platform for connecting hosts with potential guests.
 
@@ -6,9 +6,9 @@ The project is built using the **MVC (Model-View-Controller)** architectural pat
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### 🔐 Authentication & Authorization
+### Authentication & Authorization
 * **User Signup & Login:** Secure authentication using **Passport.js** (Local Strategy).
 * **Session Management:** Persistent login sessions using `express-session` and `connect-mongo`.
 * **Role-Based Access Control:**
@@ -17,19 +17,19 @@ The project is built using the **MVC (Model-View-Controller)** architectural pat
     * **Listing Owners:** Have exclusive rights to edit or delete their own listings.
     * **Review Authors:** Can exclusively delete their own reviews.
 
-### 📝 Listing Management (CRUD)
+### Listing Management (CRUD)
 * **Create:** Users can upload detailed property listings with titles, descriptions, prices, and locations.
 * **Read:** Interactive dashboard to browse all listings and specific detail pages for individual properties.
 * **Update:** Owners can edit listing details and update cover images.
 * **Delete:** Owners can remove their listings from the platform.
 * **Image Handling:** Seamless image uploads processed via **Multer** and stored directly on **Cloudinary**.
 
-### ⭐ Reviews & Ratings
+### Reviews & Ratings
 * Users can leave text reviews and star ratings for properties.
 * Average ratings are often calculated (implementation dependent) to help users make informed decisions.
 * Reviews are linked to specific listings and user profiles.
 
-### 🛡️ Security & Validation
+### Security & Validation
 * **Schema Validation:** Server-side data validation using **Joi** to ensure data integrity before it reaches the database.
 * **Error Handling:** Custom `ExpressError` class and `wrapAsync` utilities to gracefully handle runtime errors and display user-friendly error pages.
 * **Flash Messages:** Instant feedback for actions (e.g., "Listing Created!", "Welcome back!").
@@ -55,7 +55,7 @@ The project is built using the **MVC (Model-View-Controller)** architectural pat
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ├── controllers/      # Logic for handling requests (Listings, Reviews, Users)
